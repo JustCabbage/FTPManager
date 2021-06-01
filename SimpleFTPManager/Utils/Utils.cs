@@ -15,7 +15,7 @@ namespace SimpleFTPManager.Utils
         static public FtpWebResponse MethodConnection(string method,string path = "")
         {
             
-            FtpWebRequest ftpRequest = (FtpWebRequest)(WebRequest.Create($"ftp://{FTPManager.IP}{path}"));
+            FtpWebRequest ftpRequest = (FtpWebRequest)(WebRequest.Create($"ftp://{FTPManager.IP}/{path}"));
             ftpRequest.Method = method;
             ftpRequest.UseBinary = true;
             ftpRequest.KeepAlive = true;
@@ -29,6 +29,8 @@ namespace SimpleFTPManager.Utils
             return resp;
         }
 
-        
+
+
+
     }
 }

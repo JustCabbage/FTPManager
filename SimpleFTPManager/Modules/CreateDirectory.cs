@@ -15,13 +15,21 @@ namespace SimpleFTPManager.Modules
     {
         public static void CreateDirectory(string directory)
         {
-            try
+            if (FTPManager.IsConnected)
             {
-                FtpWebResponse resp = Utils.Utils.MethodConnection(WebRequestMethods.Ftp.MakeDirectory, "/" + directory);
+                try
+                {
+                    FtpWebResponse resp = Utils.Utils.MethodConnection(WebRequestMethods.Ftp.MakeDirectory, "/" + directory);
+                }
+                catch
+                {
+                    Console.WriteLine(Logger.GetMessage("DIRECTORY_ALREADY_EXISTS"), Color.Red);
+                    return;
+                }
             }
-            catch
+            else
             {
-                Console.WriteLine(Logger.GetMessage("DIRECTORY_ALREADY_EXISTS"), Color.Red);
+                Console.WriteLine(Logger.GetMessage("NOT_CONNECTED"), Color.Crimson);
                 return;
             }
             Console.WriteLine(string.Format(Logger.GetMessage("SUCCESSFUL_CREATE_DIR"), "/" + directory, FTPManager.IP),Color.Green);

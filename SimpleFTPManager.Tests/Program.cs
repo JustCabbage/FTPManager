@@ -14,8 +14,16 @@ namespace SimpleFTPManager.Tests
             CreateDir.CreateDirectory("test/testingFTP");
             Console.WriteLine(string.Join(" , ", ListDir.ListDirectory("/test")));
             Console.WriteLine();
-            DeleteDir.DeleteDirectory("test/testingFTP");
+            Ren.Rename("/test/testingFTP", "/test/testingFTPRename");
             Console.WriteLine(string.Join(" , ", ListDir.ListDirectory("/test")));
+            Console.WriteLine();
+            DeleteDir.DeleteDirectory("test/testingFTPRename");
+            Console.WriteLine(string.Join(" , ", ListDir.ListDirectory("/test")));
+            Console.WriteLine();
+            Console.WriteLine(ListDirDetail.ListDirectoryDetails("/test"));
+            Download.DownloadFile("/test/index.html", "./index.html");
+            Console.WriteLine();
+            Upload.UploadFile("./index.html", "/test/index.html");
 
         }
     }

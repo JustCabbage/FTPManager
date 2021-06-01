@@ -31,15 +31,19 @@ namespace SimpleFTPManager
             try
             {
                 resp = (FtpWebResponse)(ftpRequest.GetResponse());
+           
             }catch(Exception e){
                 Console.WriteLine(Logger.GetMessage("UNABLE_TO_CONNECT"),Color.Red);
-                return null;
+                IsConnected = false;
+                return resp;
             }
+            IsConnected = true;
             Console.WriteLine(Logger.GetMessage("SUCCESSFUL_CONNECTION"),Color.Green);
             return resp;
         }
-        
 
+
+        public static bool IsConnected { get; set; }
 
         private static string destinationIP;
         public static string IP { get { return destinationIP; } }

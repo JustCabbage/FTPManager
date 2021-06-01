@@ -54,7 +54,11 @@
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="Modules\CreateDirectory.cs" />
     <Compile Include="Modules\DeleteDirectory.cs" />
+    <Compile Include="Modules\DownloadFile.cs" />
     <Compile Include="Modules\ListDirectory.cs" />
+    <Compile Include="Modules\ListDirectoryDetails.cs" />
+    <Compile Include="Modules\Rename.cs" />
+    <Compile Include="Modules\UploadFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Utils.cs" />
   </ItemGroup>

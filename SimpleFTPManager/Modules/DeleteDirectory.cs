@@ -15,8 +15,24 @@ namespace SimpleFTPManager.Modules
     {
         public static void DeleteDirectory(string directory)
         {
-            FtpWebResponse resp = Utils.Utils.MethodConnection(WebRequestMethods.Ftp.RemoveDirectory, "/" + directory);
-            Console.WriteLine(string.Format(Logger.GetMessage("SUCCESSFUL_REMOVE_DIR"), "/" + directory, FTPManager.IP), Color.Green);
+            if (FTPManager.IsConnected)
+            {
+                try
+                {
+                    FtpWebResponse resp = Utils.Utils.MethodConnection(WebRequestMethods.Ftp.RemoveDirectory, "/" + directory);
+                    Console.WriteLine(string.Format(Logger.GetMessage("SUCCESSFUL_REMOVE_DIR"), "/" + directory, FTPManager.IP), Color.Green);
+                }
+                catch
+                {
+                    Console.WriteLine(Logger.GetMessage("INSUFFICIENT_PERMISSIONS"), Color.Red);
+                    return;
+                }
+            }
+            else
+            {
+                Console.WriteLine(Logger.GetMessage("NOT_CONNECTED"), Color.Crimson);
+                return;
+            }
 
         }
     }
