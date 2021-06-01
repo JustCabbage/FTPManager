@@ -69,7 +69,7 @@ namespace Tests
         {
             FTPManager ftp = new FTPManager();
             Console.WriteLine(ftp.Initialise("127.0.0.1", 21, "optionalUser", "optionalPass").WelcomeMessage); // Initialise returns a FtpWebResponse
-            CreateDir.DeleteDirectory("test/testingFTP");
+            DeleteDir.DeleteDirectory("test/testingFTP");
             Console.WriteLine(string.Join(" , ", ListDir.ListDirectory("/test"))); // ListDirectory returns a string[], which can be printed onto the console like this.
         }
     }
