@@ -1,0 +1,12 @@
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\SimpleFTPManager.Tests.exe.config
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\SimpleFTPManager.Tests.exe
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\SimpleFTPManager.Tests.pdb
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\SimpleFTPManager.dll
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\Colorful.Console.dll
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\SimpleFTPManager.pdb
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\bin\Debug\SimpleFTPManager.dll.config
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\obj\Debug\SimpleFTPManager.Tests.csproj.AssemblyReference.cache
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\obj\Debug\SimpleFTPManager.Tests.csproj.CoreCompileInputs.cache
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\obj\Debug\SimpleFTPManager.Tests.csproj.CopyComplete
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\obj\Debug\SimpleFTPManager.Tests.exe
+E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager.Tests\obj\Debug\SimpleFTPManager.Tests.pdb
