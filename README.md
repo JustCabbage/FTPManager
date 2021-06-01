@@ -18,10 +18,6 @@ This is just a simple proof of concept of how FTP can be implemented in C#.
 ## Basic Connection
 ```csharp
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SimpleFTPManager;
 using SimpleFTPManager.Modules;
 
@@ -40,10 +36,6 @@ namespace Tests
 ## Directory Creation and Directory Listing
 ```csharp
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SimpleFTPManager;
 using SimpleFTPManager.Modules;
 
@@ -64,10 +56,6 @@ namespace Tests
 ## Directory Deletion
 ```csharp
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SimpleFTPManager;
 using SimpleFTPManager.Modules;
 
