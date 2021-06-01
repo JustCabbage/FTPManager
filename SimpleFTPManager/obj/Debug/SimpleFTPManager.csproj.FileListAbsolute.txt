@@ -1,8 +1,0 @@
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\bin\Debug\SimpleFTPManager.dll.config
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\bin\Debug\SimpleFTPManager.dll
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\bin\Debug\SimpleFTPManager.pdb
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\bin\Debug\Colorful.Console.dll
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\obj\Debug\SimpleFTPManager.csproj.CoreCompileInputs.cache
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\obj\Debug\SimpleFTPManager.csproj.CopyComplete
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\obj\Debug\SimpleFTPManager.dll
-E:\Program Files (x86)\VS Projects (2021)\SimpleFTPManager\SimpleFTPManager\obj\Debug\SimpleFTPManager.pdb
