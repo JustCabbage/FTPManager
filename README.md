@@ -141,3 +141,6 @@ namespace Tests
     }
 }
 ```
+
+# Credits
+- Colorful.Console
